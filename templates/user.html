@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>User Details</title>
+
+<style>
+      body {
+	font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      h1 {
+	text-align: center;
+        color: #4d4d4d;
+      }
+      p {
+	font-size: 20px;
+        margin-left: 30px;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #cccccc;
+      }
+      .user-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+    </style>
+  <head>
+    <title>User Details</title>
+  </head>
+  <body>
+    <h1>User Details</h1>
+    <p>First Name: {{ user[2] }}</p>
+    <p>Last Name: {{ user[3] }}</p>
+    <p>Email: {{ user[4] }}</p>
+    <p> Word Count:{{ word_count}}</p>
+  </body>
+</html>
